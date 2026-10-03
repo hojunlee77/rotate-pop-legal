@@ -33,7 +33,7 @@
 
       <h3>2. 기기 안에만 저장되는 정보</h3>
       <table>
-        <tr><th>항목</th><td>레벨 진행 상황, 레벨별 최고 기록, 모은 조각, 설정(효과음, 움직임 줄이기), 코인 잔액과 지급·사용 내역, 같은 결제가 두 번 지급되지 않도록 남기는 iPhone의 Apple 거래 번호 또는 Android의 Google Play 구매 토큰</td></tr>
+        <tr><th>항목</th><td>레벨 진행 상황, 레벨별 최고 기록, 모은 조각, 설정(효과음, 움직임 줄이기), Android의 선택한 이용 연령대, 코인 잔액과 지급·사용 내역, 같은 결제가 두 번 지급되지 않도록 남기는 iPhone의 Apple 거래 번호 또는 Android의 Google Play 구매 토큰</td></tr>
         <tr><th>목적</th><td>이어서 플레이하기, 기록 표시, 코인을 정확히 한 번만 지급하기</td></tr>
         <tr><th>보관</th><td>이 정보는 개발자 서버로 전송되지 않고 다른 기기와 동기화되지 않습니다. Android에서는 앱의 비공개 저장 공간에 보관하고 앱 백업·기기 간 전송에서 제외합니다. 앱을 삭제하면 기기 안의 기록도 삭제되며 복원되지 않을 수 있습니다.</td></tr>
       </table>
@@ -41,6 +41,7 @@
       <h3>3. 광고와 Google이 수집하는 정보</h3>
       <p>돌려팝은 실패한 판에서 이용자가 원할 때 광고를 보고 선택 기회를 더 받는 <strong>보상형 광고</strong>를 제공합니다. 광고는 이용자가 직접 고를 때만 재생되며, 강제로 재생되는 광고는 없습니다. 광고를 보지 않아도 다시 시작은 언제나 무료입니다.</p>
       <p>이를 위해 앱에는 Google LLC의 Google Mobile Ads SDK와 User Messaging Platform SDK가 포함되어 있습니다. 앱이 실행되어 광고를 미리 준비하거나 광고를 표시할 때, Google이 아래 정보를 직접 수집할 수 있습니다. 이 정보는 Google 서버(미국)로 전송됩니다.</p>
+      <p>Android에서는 만 18세 이상 연령대를 선택한 이용자에게만 광고 동의를 요청하고 광고를 불러옵니다. 연령을 확인하지 않았거나 만 13~17세로 선택한 이용자에게는 광고를 제공하지 않습니다.</p>
       <table>
         <tr><th>수집하는 곳</th><td>Google LLC (미국) · 앱 실행과 광고 요청·표시 시 네트워크로 전송</td></tr>
         <tr><th>항목</th><td>광고·분석용 기기 단위 식별자(iPhone에서 앱 추적을 허용한 경우 Apple 광고 식별자 IDFA, Android에서 사용 가능한 경우 Android 광고 ID 포함), IP 주소와 이를 바탕으로 추정한 대략적 위치(국가·도시 수준), 광고 요청·노출·클릭 기록, 광고와의 상호작용 등 앱 이용 정보, 기기 모델·OS 버전 등 기기 정보, 성능·진단·충돌 정보</td></tr>
@@ -83,7 +84,8 @@
       <p>개발자는 개인정보를 저장하는 서버를 운영하지 않습니다. 기기 안의 정보는 iOS 또는 Android의 앱 전용 저장 공간에 보관됩니다. iPhone은 Apple이 검증한 거래를, Android는 앱에서 서명을 확인한 Google Play 구매를 코인에 반영하고, 각 거래 번호 또는 구매 토큰을 기록해 중복 지급을 막습니다.</p>
 
       <h3>11. 아동의 개인정보</h3>
-      <p>돌려팝은 만 14세 미만 아동을 주 대상으로 하지 않으며, 개발자는 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
+      <p>iPhone판은 만 14세 미만 아동을 주 대상으로 하지 않습니다. Android판의 주요 이용자는 만 13세 이상입니다. Android 첫 실행에서 만 13세 미만, 만 13~17세, 만 18세 이상 중 이용 연령대를 선택하며, 생년월일은 받지 않습니다. 선택한 연령대는 기기에만 저장하고 개발자 서버로 전송하지 않습니다.</p>
+      <p>Android에서 만 13세 미만을 선택하면 게임과 결제를 시작할 수 없습니다. 만 13~17세와 연령 미확인 이용자에게는 광고를 제공하지 않으며, 성인으로 선택한 이용자만 광고 동의 절차를 거쳐 선택형 보상 광고를 이용할 수 있습니다. 선택한 연령대는 앱 설정의 <strong>이용 연령 설정</strong>에서 다시 선택할 수 있습니다. 개발자는 아동의 개인정보를 의도적으로 서버에 수집하지 않습니다.</p>
 
       <h3>12. 개인정보 보호책임자와 문의처</h3>
       <table>
@@ -103,7 +105,7 @@
 
       <h3>14. 처리방침 변경</h3>
       <p>데이터 처리 방식이 바뀌면 관련 앱 업데이트를 출시하기 전에 이 페이지를 갱신하고 시행일을 고칩니다. 이용자의 권리에 중요한 변경은 시행 7일 전부터 이 페이지에 알립니다.</p>
-      <p>개정 이력: 2026년 10월 1일 제정. 2026년 10월 2일 운영자와 개인정보 보호책임자 표기를 보완했습니다. 같은 날 앱 추적 허용(ATT) 요청과 그에 따른 IDFA 처리를 4항과 3항에 반영하고, 이용자가 이메일 지원을 요청할 때 제공하는 정보의 처리와 삭제 방법을 명확히 했습니다. 2026년 10월 3일 Android 앱의 광고 식별자, 기기 저장 기록과 Google Play 결제 처리를 추가했습니다.</p>
+      <p>개정 이력: 2026년 10월 1일 제정. 2026년 10월 2일 운영자와 개인정보 보호책임자 표기를 보완했습니다. 같은 날 앱 추적 허용(ATT) 요청과 그에 따른 IDFA 처리를 4항과 3항에 반영하고, 이용자가 이메일 지원을 요청할 때 제공하는 정보의 처리와 삭제 방법을 명확히 했습니다. 2026년 10월 3일 Android 앱의 광고 식별자, 기기 저장 기록과 Google Play 결제 처리를 추가했습니다. 같은 날 Android의 이용 연령대 저장, 만 13세 미만 접근 제한 및 청소년 광고 보호를 반영했습니다.</p>
     </section>
 
     <section class="language" lang="en">
@@ -118,7 +120,7 @@
       </ul>
 
       <h3>Data stored only on your device</h3>
-      <p>Level progress, best results, collected pieces, settings (sound, reduced motion), coin balance and history, and the Apple transaction IDs on iPhone or Google Play purchase tokens on Android used to prevent duplicate credits are stored on your device. This data is not sent to a developer server or synced between devices. On Android it is kept in app-private storage and excluded from app backup and device transfer. Deleting the app removes its local records, which may not be recoverable afterward.</p>
+      <p>Level progress, best results, collected pieces, settings (sound, reduced motion), the selected age group on Android, coin balance and history, and the Apple transaction IDs on iPhone or Google Play purchase tokens on Android used to prevent duplicate credits are stored on your device. This data is not sent to a developer server or synced between devices. On Android it is kept in app-private storage and excluded from app backup and device transfer. Deleting the app removes its local records, which may not be recoverable afterward.</p>
 
       <h3>Advertising and data collected by Google</h3>
       <p>Rotate Pop offers <strong>rewarded ads</strong>: after a failed attempt you may choose to watch an ad for extra moves. Ads play only when you choose them, and restarting is always free.</p>
@@ -143,7 +145,8 @@
       <p>Support emails, including your reply address and message, are kept only as long as needed to resolve your issue and handle follow-up questions. They are deleted when no longer needed or when you request deletion. You and a child's legal guardian can request access, correction, deletion, or restriction of this information by emailing the address below. You can delete on-device data by deleting the app and manage Google-collected data through <a href="https://myadcenter.google.com/">Google My Ad Center</a> or by contacting Google. For any other request, email the address below and you will receive a reply within 10 days. Rotate Pop makes no fully automated decisions with legal or similarly significant effects.</p>
 
       <h3>Children</h3>
-      <p>Rotate Pop is not directed at children under 14, and the developer does not knowingly collect personal information from children.</p>
+      <p>The iPhone version is not primarily directed at children under 14. The Android version is intended for ages 13 and older. On first launch, Android asks you to choose an age group: under 13, 13–17, or 18 and older. It does not ask for your date of birth. The selected group stays on your device and is not sent to a developer server.</p>
+      <p>Users selecting under 13 cannot start the Android game or purchases. Ads are not offered to ages 13–17 or users of unknown age. Only users selecting the adult group can use rewarded ads through the advertising consent process. Change your selection in <strong>Age settings</strong> within the app settings. The developer does not knowingly collect children's personal information on a server.</p>
 
       <h3>Changes</h3>
       <p>If data practices change, this page is updated before the related app update is released, and the effective date above changes with it.</p>
